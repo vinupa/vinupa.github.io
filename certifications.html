@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Vinupa Thenuka</title>
+</head>
+
+<body class="has-navbar-fixed-top">
+
+    <section class="navigation">
+
+        <nav class="navbar is-transparent is-fixed-top pt-4">
+            <div class="navbar-brand">
+
+                <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div class="navbar-menu" id="navMenu">
+                <div class="navbar-end">
+                    <div class="navbar-item navbar-hover">
+                        <a class="navbar-item mr-6 pt-1" href="./index.html">
+                            Home
+                        </a>
+
+                        <a class="navbar-item mr-6 pt-1" href="./education.html">
+                            Education
+                        </a>
+
+                        <a class="navbar-item mr-6 pt-1 navbar-active" href="#">
+                            Certifications
+                        </a>
+
+                        <a class="navbar-item mr-6 pt-1" href="./contact.html">
+                            Contact me
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <div data-aos="fade-right" data-aos-duration="1000">
+        <div class="title is-2 has-text-black is-hidden-tablet mt-4 ml-4">Certifications</div>
+        <div class="title is-1 has-text-black is-hidden-mobile mt-6 ml-6 mb-4">Certifications</div>
+    </div>
+
+    <div class="columns is-mobile is-centered is-vcentered p-4">
+        <div class="column is-one-quarter-tablet edu-icon" data-aos="fade-right" data-aos-duration="1000"
+            data-aos-delay="200">
+            <img src="./images/ccnaitn.png" alt="Logo">
+        </div>
+        <div class="column is-half-tablet" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+            <span class="is-size-5-mobile is-size-4-tablet has-text-black has-text-weight-medium">
+                CCNA: Introduction to Networks
+            </span><br>
+            <span class="is-size-5 has-text-weight-semibold">Cisco</span>
+        </div>
+    </div>
+
+    <div class="columns is-mobile is-centered is-vcentered p-4">
+        <div class="column is-one-quarter-tablet edu-icon" data-aos="fade-right" data-aos-duration="1000"
+            data-aos-delay="400">
+            <img src="./images/harvardx.jpg" alt="Logo">
+        </div>
+        <div class="column is-half-tablet" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+            <span class="is-size-5-mobile is-size-4-tablet has-text-black has-text-weight-medium">
+                CS50: Introduction to Computer Science
+            </span><br>
+            <span class="is-size-5 has-text-weight-semibold">HarvardX</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
